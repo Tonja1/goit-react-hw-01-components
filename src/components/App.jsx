@@ -1,6 +1,10 @@
 import { GlobalStyle } from "./GlobalStyles";
 import { Profile } from "./profile/Profile";
+<<<<<<< Updated upstream
 import user from '../Data/user';
+=======
+import user from "../Data/user";
+>>>>>>> Stashed changes
 import data from '../Data/data';
 import { Statistics } from "./Statistics/Statistics";
 import friends from '../Data/friends';
@@ -20,10 +24,17 @@ export const App = () => {
   tag={user.tag}
   location={user.location}
   avatar={user.avatar}
+<<<<<<< Updated upstream
   stats={user.stats}        
 />
     </div>
     <div>
+=======
+  Information stats={user.stats}
+/>
+    </div>
+      <div>
+>>>>>>> Stashed changes
         <Statistics title="Upload stats" stats={data} />
       </div>
       <div>

@@ -27,11 +27,19 @@ export const Profile = ({username, tag, location, avatar, stats}) => {
 };
 
 Profile.propTypes = {
+<<<<<<< Updated upstream
   username: propTypes.string.isRequired,
   tag: propTypes.string.isRequired,
   location: propTypes.string.isRequired,
   avatar: propTypes.string.isRequired,
   stats: propTypes.shape({
+=======
+    username: propTypes.string.isRequired,
+    tag: propTypes.string.isRequired,
+    location: propTypes.string.isRequired,
+    avatar: propTypes.string.isRequired,
+    stats: propTypes.shape({
+>>>>>>> Stashed changes
     followers: propTypes.number.isRequired,
     views: propTypes.number.isRequired,
     likes: propTypes.number.isRequired,
